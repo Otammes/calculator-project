@@ -22,16 +22,17 @@ const operatorInput = null;
 
 const operate = function(operatorInput, firstNumberInput, secondNumberInput) {
     if(operatorInput === "add"){
-        add(firstNumberInput, secondNumberInput)
+        return add(firstNumberInput, secondNumberInput)
     }
     else if(operatorInput === "subtract"){
-        subtract(firstNumberInput, secondNumberInput)
+        return subtract(firstNumberInput, secondNumberInput)
     }
     else if(operatorInput === "multiply"){
-        multiply(firstNumberInput, secondNumberInput)
+        return multiply(firstNumberInput, secondNumberInput)
     }
     else if(operatorInput === "divide"){
-        divide(firstNumberInput, secondNumberInput)
+        return divide(firstNumberInput, secondNumberInput)
     }
 
 };
+
