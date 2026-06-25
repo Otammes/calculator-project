@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+    margin: 40px;
+    margin-top: 6rem;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 66vh;
+}
+
+button {
+    width: 33.33333%;
+    font-size: 1.75em;
+}
+
+.calculator-body {
+    text-align: end; 
+}
+
+output {
+    font-size: 4em;
+}
